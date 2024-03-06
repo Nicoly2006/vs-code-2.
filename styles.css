@@ -31,10 +31,6 @@ body {
   font-size: 32px;
 }
 
-.titulo-principal span {
-  color: var(--verde);
-}
-
 .botao { font-family: Chakra Petch, sans-serif;
   background-color: var(--botao-inativo);
   color: var(--branco); display: flex;
@@ -49,6 +45,26 @@ body {
   border-top: none;
 }
 
-.botao:first-child {  
-  border-radius: 40px 40px 0 0;
+.titulo-principal span {
+  color: var(--verde);
+}
+
+.ativo{
+  background-color: var(--botao-ativo);
+  border-bottom: 4px solid var(--verde);
+}
+
+@media  screen and (min-width: 768px) {
+  .botoes {
+    display: flex;
+  }
+
+  .botao:first-child {
+    border-radius: 40px 0 0 0;
+
+  }
+  
+  .botao:last-child{ 
+
+  }
 }
