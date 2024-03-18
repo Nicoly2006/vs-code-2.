@@ -2,7 +2,7 @@
 
 :root {
   --cor-de-fundo: #161618;
-  --verde: #6FFF57;
+  --verde: #5fe7ff;
   --branco: #FFFFFF;
   --botao-ativo: #3A375E;
   --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -82,6 +82,10 @@ body {
     text-transform: uppercase;
 }
 
+.contador{
+    font-size: 20px;
+    text-align: center;
+}
 
 
 @media screen and (min-width: 768px) {
